@@ -1,0 +1,134 @@
+*,
+head,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: poppin;
+}
+
+@font-face {
+    font-family: poppin;
+    src: url("/Poppins-Regular.ttf");
+}
+
+.container {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+header{
+    background-color: #2b2b2b;
+    color: rgb(255, 255, 255);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px rgb(255, 84, 22) solid;
+}
+
+header h1 span{
+    color: rgb(255, 84, 22);
+}
+
+header nav ul{
+    display: flex;
+    gap: 40px;
+}
+
+header nav ul li{
+    list-style: none;
+}
+
+header nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+header nav ul li a:hover{
+    opacity: .6;
+}
+
+main .hero{
+    background-image: url("hero.png");
+    height: 500px;
+    background-position: 0px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+}
+
+main .subscribe{
+    background-color: #2b2b2b;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.subscribe h2{
+    font-weight: normal;
+}
+
+.subscribe form input{
+    border: none;
+    padding: 10px 30px;
+}
+
+.subscribe form button{
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+
+.subscribe form button:hover{
+    opacity: .7;
+}
+
+main .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f8f8;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.card img{
+    width: 80px;
+}
+
+.card p{
+    text-align: justify;
+}
+
+footer{
+    background-color: orangered;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+footer div h2{
+    font-weight: normal;
+}
