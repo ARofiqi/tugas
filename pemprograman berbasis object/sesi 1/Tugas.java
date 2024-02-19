@@ -51,7 +51,7 @@ public class Tugas {
     System.out.print("Masukkan Sisi 3 : ");
     int sisi3 = scanner.nextInt();
 
-    int luas = (alas * tinggi) / 2;
+    double luas = (alas * tinggi) / 2;
     int keliling = sisi1 + sisi2 + sisi3;
 
     System.out.println("Alas\t\t= " + alas);
