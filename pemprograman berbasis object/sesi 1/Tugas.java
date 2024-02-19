@@ -40,16 +40,22 @@ public class Tugas {
 
     // menghitung luas dan keliling segitiga
     System.out.println("\n3. menghitung luas dan keliling segitiga");
-    System.out.print("Masukkan Panjang : ");
-    int panjang = scanner.nextInt();
-    System.out.print("Masukkan Lebar : ");
-    int lebar = scanner.nextInt();
+    System.out.print("Masukkan Alas : ");
+    int alas = scanner.nextInt();
+    System.out.print("Masukkan Tinggi : ");
+    int tinggi = scanner.nextInt();
+    System.out.print("Masukkan Sisi 1 : ");
+    int sisi1 = scanner.nextInt();
+    System.out.print("Masukkan Sisi 2 : ");
+    int sisi2 = scanner.nextInt();
+    System.out.print("Masukkan Sisi 3 : ");
+    int sisi3 = scanner.nextInt();
 
-    int luas = panjang * lebar;
-    int keliling = 4 * (panjang + lebar);
+    int luas = (alas * tinggi) / 2;
+    int keliling = sisi1 + sisi2 + sisi3;
 
-    System.out.println("Panjang\t\t= " + panjang);
-    System.out.println("Lebar\t\t= " + lebar);
+    System.out.println("Alas\t\t= " + alas);
+    System.out.println("Tinggi\t\t= " + tinggi);
     System.out.println("======= Hasil =======");
     System.out.println("Luas\t\t= " + luas);
     System.out.println("Keliling\t= " + keliling);
