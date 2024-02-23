@@ -1,0 +1,1 @@
+buku1.getPrice()*5

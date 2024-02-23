@@ -15,7 +15,7 @@ public class Tugas {
     System.out.print("Masukkan suhu reamur : ");
     double reamur = scanner.nextDouble();
     double celcius = (5 / 4) * reamur;
-    double fahrenheit = ((4 / 5) * reamur) + 32;
+    double fahrenheit = ((9 / 4) * reamur) + 32;
     double kelvin = celcius + 273.15;
 
     System.out.println("Suhu Reamur \t\t= " + reamur + " R");
