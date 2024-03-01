@@ -65,7 +65,7 @@ public class Tugas {
 
     int total = buku4.getPrice() + buku5.getPrice() + buku3.getPrice();
 
-    System.out.println("\nSaya membeli 3 buku berjudul :");
+    System.out.println("\nSaya membeli 3 buku berjudul ");
     System.out.println("\t> Hidup minimalis ala orang jepang");
     System.out.println("\t> Start With Why");
     System.out.println("\t> Berani bahagia");
