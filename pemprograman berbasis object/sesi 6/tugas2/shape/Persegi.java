@@ -24,7 +24,7 @@ public class Persegi implements Shape{
     public void setSisi(double value){
         this.sisi = value;
     }
-
+    
     public void getInfo(){
         System.out.println("Informasi " + this.nama);
         System.out.println("Sisi      = "+this.sisi);

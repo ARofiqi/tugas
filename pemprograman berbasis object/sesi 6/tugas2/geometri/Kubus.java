@@ -1,16 +1,18 @@
 package geometri;
+import shape.*;
 
-public class Kubus implements Geometri{
+public class Kubus extends Persegi implements Geometri{
     protected String nama;
-    protected double sisi;
+    protected double sisi1;
     
     public Kubus(double sisi){
+        super(sisi);
         this.nama = "Kubus";
-        this.sisi = sisi;
+        this.sisi1 = sisi;
     }
 
     public double getVolume(){
-        return Math.pow(this.sisi, 3);
+        return super.getLuas()*this.sisi1;
     }
 
     public double getLuasPermukaan() {

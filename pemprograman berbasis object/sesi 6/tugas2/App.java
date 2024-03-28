@@ -23,13 +23,13 @@ public class App {
         do {
             System.out.print("\nPilih objek (0-11): ");
             choice = scanner.nextInt();
-
+            
             switch (choice) {
                 case 1:
-                    System.out.print("Masukkan panjang sisi: ");
-                    double sisi = scanner.nextDouble();
-                    SegitigaSamaSisi a = new SegitigaSamaSisi(sisi);
-                    a.getInfo();
+                System.out.print("Masukkan panjang sisi: ");
+                double sisi = scanner.nextDouble();
+                SegitigaSamaSisi a = new SegitigaSamaSisi(sisi);
+                a.getInfo();
                     break;
                 case 2:
                     System.out.print("Masukkan panjang sisi yang sama: ");
