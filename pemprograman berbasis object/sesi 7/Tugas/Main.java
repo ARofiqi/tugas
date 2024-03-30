@@ -9,7 +9,6 @@ public class Main {
 
         daftarMahasiswa.cetakDaftar();
 
-        // Menggunakan MahasiswaHashMap untuk menyimpan dan mengakses mahasiswa dengan HashMap
         MahasiswaHashMap mahasiswaHashMap = new MahasiswaHashMap();
         mahasiswaHashMap.tambah(1, rofiqi);
         mahasiswaHashMap.tambah(2, chigi);
